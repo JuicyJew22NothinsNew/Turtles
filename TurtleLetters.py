@@ -87,12 +87,47 @@ def turtleLetter(letter,tur):
         tur.left(90)
         tur.forward(30)
         tur.right(90)
-    elif letter == "N":
-	    pass
+   elif letter == "N":
+        tur.pendown()
+        tur.right(90)
+        tur.forward(30)
+        tur.penup()
+        tur.left(180)
+        tur.forward(30)
+        tur.right(135)
+        tur.pendown()
+        tur.forward(40)
+        tur.left(135)
+        tur.forward(30)
+        tur.right(90)
+        tur.penup()
+        tur.forward(10)
     elif letter == "O":
-	    pass
-    elif letter == "P":
-	    pass		
+        tur.pendown()
+        tur.forward(40)
+        tur.right(90)
+        tur.forward(40)
+        tur.right(90)
+        tur.forward(40)
+        tur.right(90)
+        tur.forward(40)
+        tur.right(90)
+        tur.penup()
+        tur.forward(50)
+    elif letter =="P":
+        tur.pendown()
+        tur.forward(15)
+        tur.right(90)
+        tur.forward(15)
+        tur.right(90)
+        tur.forward(15)
+        tur.left(90)
+        tur.forward(25)
+        tur.right(180)
+        tur.forward(40)
+        tur.right(90)
+        tur.penup()
+        tur.forward(35)		
     elif letter == "Q":
 	    pass
     elif letter == "R":
