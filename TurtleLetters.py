@@ -347,17 +347,60 @@ def turtleLetter(letter,tur):
         tur.penup()
         tur.forward(35)		
     elif letter == "Q":
-	    pass
+	tur.left(180)
+        tur.fd(80)
+        tur.left(90)
+        tur.fd(80)
+        tur.left(90)
+        tur.fd(80)
+        tur.left(90)
+        tur.fd(80)
+        tur.right(180)
+        tur.fd(80)
+        tur.left(45)
+        tur.fd(20)
     elif letter == "R":
-	    pass
+	 tur.fd(80)
+	 tur.right(90)
+	 tur.fd(80)
+	 tur.right(90)
+	 tur.fd(80)
+	 tur.right(225)
+	 tur.fd(120)
+ 	 tur.right(180)
+	 tur.fd(120)
+	 tur.left(135)
+	 tur.fd(80)
+	 tur.bk(160)
+	    
     elif letter == "S":
-	    pass
+	   tur.fd(80)
+ 	   tur.bk(80)
+ 	   tur.right(90)
+ 	   tur.fd(80)
+ 	   tur.left(90)
+ 	   tur.fd(80)
+ 	   tur.right(90)
+ 	   tur.fd(80)
+ 	   tur.right(90)
+ 	   tur.fd(80) 
+	
     elif letter == "T":
-	    pass
+	  tur.fd(80)
+	  tur.right(180)
+	  tur.fd(40)
+	  tur.left(90)
+	  tur.fd(80)  
+		
     elif letter == "U":
-	    pass
+	   tur.right(90)
+	   tur.fd(80)
+	   tur.left(90)
+	   tur.fd(40)
+	   tur.left(90)
+	   tur.fd(80)
     elif letter == "V":
-	 tur.pendown()
+	tur.pendown()
         tur.right(45)
         tur.fd(30)
         tur.right(270)
