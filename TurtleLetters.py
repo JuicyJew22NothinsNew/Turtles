@@ -171,6 +171,7 @@ def turtleLetter(letter,tur):
         tur.left(90)
         tur.fd(10)
         tur.right(90)
+	tur.fd(20)
     elif letter == "G":
 	    tur.setheading(0)
 	    tur.pu()
