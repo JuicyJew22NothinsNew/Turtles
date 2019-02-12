@@ -356,37 +356,48 @@ def turtleLetter(letter,tur):
     elif letter == "U":
 	    pass
     elif letter == "V":
-	tur.pendown()
+	 tur.pendown()
         tur.right(45)
         tur.fd(30)
         tur.right(270)
+        tur.fd(30)
+        tur.penup()
+        tur.right(45)
         tur.fd(30)
 	    pass
     elif letter == "W":
 	tur.pendown()
         tur.right(45)
-        tur.fd(10)
+        tur.fd(30)
         tur.right(270)
-        tur.fd(10)
+        tur.fd(30)
         tur.pendown()
         tur.right(90)
-        tur.fd(10)
+        tur.fd(30)
         tur.right(270)
-        tur.fd(10) 
+        tur.fd(30)
+        tur.penup()
+        tur.right(45)
+        tur.fd(30)
 	    pass
     elif letter == "X":
 	tur.pendown()
         tur.right(45)
-        tur.fd(20)
+        tur.fd(40)
         tur.left(180)
-        tur.fd(10)
+        tur.fd(20)
         tur.right(90)
-        tur.fd(10)
-        tur.left(180)
         tur.fd(20)
+        tur.left(180)
+        tur.fd(40)
+        tur.penup()
+        tur.right(180)
+        tur.fd(40)
+        tur.right(45)
+        tur.fd(30)
 	    pass
     elif letter == "Y":
-	tur.pendown()
+	 tur.pendown()
         tur.right(45)
         tur.fd(20)
         tur.right(45)
@@ -395,8 +406,9 @@ def turtleLetter(letter,tur):
         tur.fd(20)
         tur.right(45)
         tur.fd(20)
-	    
-    
+        tur.penup()
+        tur.right(45)
+        tur.fd(30)
 	    pass
     elif letter == "Z":
 	tur.pendown()
@@ -406,7 +418,9 @@ def turtleLetter(letter,tur):
         tur.fd(30)
         tur.right(225)
         tur.fd(30)
-	    pass		
+        tur.penup()
+        tur.left(90)
+        tur.fd(30)
 
         
     elif letter == "Ax":
