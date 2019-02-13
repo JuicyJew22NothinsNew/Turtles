@@ -347,6 +347,7 @@ def turtleLetter(letter,tur):
         tur.penup()
         tur.forward(35)		
     elif letter == "Q":
+	tur.pd
 	tur.left(180)
         tur.fd(80)
         tur.left(90)
