@@ -462,7 +462,6 @@ def turtleLetter(letter,tur):
         tur.left(90)
         tur.fd(30)
 
-        
     elif letter == "Ax":
         # code here
         tur.forward(40)
